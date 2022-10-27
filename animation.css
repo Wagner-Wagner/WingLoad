@@ -1,0 +1,139 @@
+/*  --  Nuages  --  */
+
+body img{
+    position: absolute;
+    z-index: -10;
+}
+
+/* --  First animation -- */ 
+
+body img:nth-child(1){
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    animation-duration: 25s;
+    animation-name: firstAnim;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes firstAnim {
+    0%{
+        right: 10px;
+    }
+
+    100%{
+        right: 20%;
+    }
+}
+
+/* -- Second animation -- */
+
+body img:nth-child(2){
+    top: 20px;
+    left: 5%;
+    width: 80px;
+    height: 80px;
+    animation-duration: 10s;
+    animation-name: secondAnim;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+body img:nth-child(3){
+    top: 25px;
+    left: 9%;
+    width: 130px;
+    height: 80px;
+    animation-duration: 25s;
+    animation-name: secondAnim;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes secondAnim {
+    0%{
+        top: 20px;
+    }
+
+    100%{
+        top: 55px;
+    }
+}
+
+
+/* -- Fourth -- */
+
+body img:nth-child(4){
+    top: 60px;
+    right: 30%;
+    width: 130px;
+    height: 80px;
+    animation-duration: 5s;
+    animation-name: fourth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* -- -- */
+
+body img:nth-child(5){
+    top: 55px;
+    right: 37%;
+    width: 180px;
+    height: 100px;
+    animation-duration: 10s;
+    animation-name: fourth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* -- -- */
+
+body img:nth-child(6){
+    top: 120px;
+    right: 35%;
+    width: 80px;
+    height: 60px;
+    animation-duration: 7s;
+    animation-name: fourthBis;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes fourth{
+    0%{
+        top: 55px;
+    }
+
+    100%{
+        top: 85px;
+    }
+}
+
+@keyframes fourthBis{
+    0%{
+        top: 45px;
+    }
+}
+
+body img:nth-child(7){
+    top: 5%;
+    left: 30%;
+    height: 60px;
+    width: 80px;
+    animation-duration: 5s;
+    animation-name: lastAnim;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes lastAnim{
+    0%{
+        top: 10%;
+    }
+
+    100%{
+        top: 5%;
+    }
+}
