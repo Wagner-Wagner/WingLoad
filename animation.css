@@ -137,3 +137,28 @@ body img:nth-child(7){
         top: 5%;
     }
 }
+
+@media screen and (max-width: 800px){
+    body img:nth-child(6){
+        top: 0;
+        right: 3%;
+        height: 60px;
+        width: 80px;
+    }
+    body img:nth-child(5){
+        top: 0;
+        right: 3%;
+        height: 60px;
+        width: 80px;
+    }
+    body img:nth-child(3){
+        top: 25px;
+        left: 25%;
+        width: 40px;
+        height: 40px;
+        animation-duration: 25s;
+        animation-name: secondAnim;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+}

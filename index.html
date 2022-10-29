@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -39,17 +40,24 @@
             <label for="nSaut">Nombre de saut</label>
             <input type="number" id="nSaut" name="nSaut" value="nbr">
 
-            <label for="poids">Poids</label>
+            <label for="poids">Poids avec ton rig</label>
             <input type="number" id="poids" name="poids" value="nbr">
 
             <label for="voile">Taille de voile</label>
             <input type="number" id="voile" name="voile" value="nbr">
 
-            <label for="check">Cours sous voile</label>
-            <input type="checkbox">
-
+            <label for="cours-sous-voile">cours-sous-voile</label>
+            <select name="choix" id="">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+            
             <label for="btn"></label>
             <button>submit</button>
+
+            <div class="resultat">
+                Ton wingload est de de 1,45. Taille de voile minimum. +
+            </div>
 
         </div>
         
@@ -63,3 +71,8 @@
 </body>
 
 </html>
+
+
+
+
+
