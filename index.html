@@ -37,33 +37,32 @@
 
         <div class="formulair">
 
-            <label for="nSaut">Nombre de saut</label>
-            <input type="number" id="nSaut" name="nSaut" value="nbr">
+            <label for="nbrJumps">Nombre de saut</label>
+            <input type="number" id="nbrJumps" name="nbrJumps" value="number">
 
-            <label for="poids">Poids avec ton rig</label>
-            <input type="number" id="poids" name="poids" value="nbr">
+            <label for="weight">Poids avec ton rig</label>
+            <input type="number" id="weight" name="weight" value="number">
 
-            <label for="voile">Taille de voile</label>
-            <input type="number" id="voile" name="voile" value="nbr">
+            <label for="size">Taille de voile</label>
+            <input type="number" id="size" name="size" value="number">
 
             <label for="cours-sous-voile">cours-sous-voile</label>
-            <select name="choix" id="">
-                <option value="yes">yes</option>
-                <option value="no">no</option>
+            <select name="choix" id="cours-sous-voile">
+                <option class="option" value="yes">YES</option>
+                <option class="option" value="no">NO</option>
             </select>
             
             <label for="btn"></label>
-            <button>submit</button>
+            <button id="btn">submit</button>
 
-            <div class="resultat">
-                Ton wingload est de de 1,45. Taille de voile minimum. +
-            </div>
+            <div class="resultat"></div>
+            <button id="btn2">Voir le tableau des tailles de voile</a></button>
 
         </div>
         
     </div>
 
-    <div class="resultat"></div>
+
 
     <script src="app.js"></script>
 
