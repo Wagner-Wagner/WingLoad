@@ -79,6 +79,11 @@ body{
     font-size: 20px;
 }
 
+.formulair .resultatCategorie{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
 /* -- Responsive  -- */
 
 @media screen and (max-width: 1250px){
